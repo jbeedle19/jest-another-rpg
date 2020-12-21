@@ -1,0 +1,24 @@
+{
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "description": "A command-line RPG where the user fights enemies and uses potions to aid their quest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbeedle19/jest-another-rpg.git"
+  },
+  "keywords": [
+    "rpg",
+    "command-line",
+    "application"
+  ],
+  "author": "Joshua Beedle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbeedle19/jest-another-rpg/issues"
+  },
+  "homepage": "https://github.com/jbeedle19/jest-another-rpg#readme"
+}
