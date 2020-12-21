@@ -7,9 +7,10 @@ test('creates a health potion object', () => {
     expect(potion.value).toEqual(expect.any(Number));
 });
 
-/* const randomNumber = require('../lib/random.js');
+test('creates a random potion object', () => {
+    const potion = new Potion();
 
-test('gets random number between 1 and 10', () => {
-  expect(randomNumber()).toBeGreaterThanOrEqual(1);
-  expect(randomNumber()).toBeLessThanOrEqual(10);
-}); */
+    expect(potion.name).toEqual(expect.any(String));
+    expect(potion.name.length).toBeGreaterThan(0);
+    expect(potion.value).toEqual(expect.any(Number));
+});
