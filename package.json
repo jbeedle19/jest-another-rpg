@@ -4,7 +4,8 @@
   "description": "A command-line RPG where the user fights enemies and uses potions to aid their quest.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
